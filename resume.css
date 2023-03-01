@@ -1,0 +1,98 @@
+/* CSS for Resume Assignment*/
+
+
+body {
+	border-style: solid;
+	border-color:#ed6c29;
+	margin: 10px 10px 10px 10px;
+}
+
+h1,h2,p {
+	font-family: 'Bubblegum Sans', serif;
+	font-family: 'Gentium Book Plus', serif; 
+}
+
+h1 {
+	color:#21067f;
+	text-decoration: underline;
+}
+
+h2{
+	color:#ed6c29;
+}
+
+
+.col-md-3{
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	background-color:#f6b594;
+}
+
+.col-md-9 h1 {
+	font-size: 2em;
+	text-align: left;
+}
+
+.experience, .specialties, .education {
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.summary p {
+	text-align: center;
+	text-indent: 50px;
+	font-size: 16px;
+}
+
+.summary p::first-letter {
+	color:#ed6c29;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.JMU,.name {
+	text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+
+ul {
+  list-style-image:url('butterfly.png');
+  list-style-position: inside;
+}
+
+a:link {
+	color:#ed6c29;
+}
+
+a:visited {
+	color:#702c09;
+}
+
+a:focus{
+	color:#d76c04;
+}
+
+a:hover {
+	color:#21067f;
+	text-decoration: underline;
+}
+
+a:active {
+	color:#1b74cb;
+}
+
+
+
+
+
+
